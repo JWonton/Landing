@@ -1,7 +1,14 @@
 # Landing
 
 
+Project Reflections:
+Things I learned how to do by researching the solutions outside of the TOP curriculum:
 
+- how to create transitions and the hover selector in css with transition-duration and :hover
+- how to round the edges of boxes using border-radius:
+- how to use the a:hover selector to change the color of links when you hover over them
+- further practice of flex box and flex box conventions to create a landing page
+- the ability to create an entire landing page from scratch
 
 
 
