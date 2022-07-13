@@ -48,14 +48,17 @@ a:hover {
     text-decoration: none;
     color:white;
 }
+/*general container code*/
+.container {
+    display: flex;
+    max-width: 1600px;
+    margin: 16px 32px;
+}
 /* first container of content below header bar */
 .container-1 {
-    display: flex;
     justify-content: center;
     padding-bottom: 16px;
     padding-top: 16px;
-    margin: 16px;
-    flex: 1;
 }
 /* text boxes and styles under container 1 */
 .container-1-text {
@@ -90,7 +93,7 @@ a:hover {
     border: solid 3px;
     border-color:#46b2b2;
     background-color:#004a4a;
-}
+} 
 .container-1 a{
     text-decoration: none;
     color:#46b2b2;
@@ -104,11 +107,13 @@ a:hover {
     border: 4px solid;
     border-color:#004a4a;
 }
+/* sets the background color of the container 2 and 4 t blue */
+.background--blue {
+    background-color:#46b2b2
+}
 
 /* Container 2 items */
 .container-2 {
-    background-color: #46b2b2;
-    display: flex;
     flex-direction: column;
     padding: 52px;
 }
@@ -125,12 +130,17 @@ a:hover {
     font-style: italic;
     font-weight: 100px;
 }
+.container-2-box {
+    width: 40%;
+}
 /* this aligns the image boxes vertically and spaces them out accordingly */
 .container-2-img {
     display: flex;
     flex: 1;
-    justify-content: space-evenly;
-    gap: 52px;
+    justify-content: space-between;
+    align-items: center;
+   /* gap: 52px; commented this out because with space between, it's more reliable */
+   flex-wrap: wrap;
 }
 .container-2 img {
     width: 185px;
@@ -139,9 +149,14 @@ a:hover {
     border: 6px solid;
     border-color:#004a4a
 }
+/* sets standard size for tablet screens */
+@media screen and (min-width: 768px) {
+    .container-2-box {
+        width: 300px;
+    }
+}
 /* container 3 style + items */
 .container-3 {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 125px;
@@ -161,11 +176,9 @@ a:hover {
 }
 /* container 4 style and items */
 .container-4 {
-    display: flex;
     flex-direction: column;
     justify-content:center;
     padding: 100px;
-    background-color:#46b2b2;
 }
 .container-4-box {
     display: flex;

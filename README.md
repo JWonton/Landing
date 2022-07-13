@@ -1,6 +1,15 @@
 # Landing
 
 
+UPDATE 7/13/2022
+
+After coming back to and reviewing this project, I realized there was a few things I could adjust and improve upon. For instance;
+
+- Created a general .container class so that I could condense my code a bit.
+- Adjusted the sizing of the web page to better accomodate different sized screens and monitors. 
+- Adjusted sizing to accomodate for mobile devices.
+- Fixed the spacing of Container 2 and added flex-wrap to accomodate different sized screens.
+
 Project Reflections:
 Things I learned how to do by researching the solutions outside of the TOP curriculum:
 
